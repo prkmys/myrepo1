@@ -1,4 +1,5 @@
-who am i
-ps -ef|wc -l
-ls -ltr
-echo "The script completed successfully"
+systemctl status jenkins
+systectl status docker
+docker ps 
+ls -ltr|date
+echo "This is a output of file3.sh"
